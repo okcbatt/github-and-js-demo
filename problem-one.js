@@ -9,8 +9,9 @@ Hint: Consider what type of JavaScript code will allow you to do something over 
 
 
 function buildFenceCommand(numOfFencePosts, fencePostMaterial){
-    for(let fencePostNum = 1; numOfFencePosts >= fencePostNum; fencePostNum++)
-    console.log("JARVIS is now building" + " " + fencePostMaterial + " " + "fence post number" + " " + fencePostNum)
+    for(let i = 1; numOfFencePosts >= i; i++){
+    console.log("JARVIS is now building" + " " + fencePostMaterial + " " + "fence post number" + " " + i)
+    }
 }
 
 buildFenceCommand(10, "wood")
